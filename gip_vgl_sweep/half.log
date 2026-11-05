@@ -1,0 +1,15 @@
+1 15 SCAN7 F -9.0 True 
+2 15 SCAN7 A05 -9.0 True 
+3 15 SCAN7 R10 -9.0 True 
+4 15 SCAN7 A10 -9.0 True 
+5 15 SCAN7 M -9.0 True 
+6 15 SCAN9 F -9.0 True 
+7 15 SCAN9 A05 -9.0 True 
+8 15 SCAN9 A10 -9.0 True 
+9 15 SCAN9 R10 -9.0 True 
+10 15 SCAN9 M -9.0 True 
+11 15 EM8 F -9.0 True 
+12 15 EM8 A05 -9.0 True 
+13 15 EM8 A10 -9.0 True 
+14 15 EM8 R10 -9.0 True 
+15 15 EM8 M -9.0 True 

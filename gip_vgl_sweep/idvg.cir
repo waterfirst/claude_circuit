@@ -1,0 +1,18 @@
+* idvg test
+.subckt pt d g s
+Bch d s I = -1.697505e-07*(ln(1+exp((v(s)-v(g)-2.3000)/0.13029))*ln(1+exp((v(s)-v(g)-2.3000)/0.13029)) - ln(1+exp((v(d)-v(g)-2.3000)/0.13029))*ln(1+exp((v(d)-v(g)-2.3000)/0.13029)))
+Cgs g s 3.6000e-15
+Cgd g d 3.6000e-15
+Roff d s 1.0000e+12
+.ends pt
+Xm d g 0 pt
+Vd d 0 -0.1
+Vg g 0 0
+Vd2 d2 0 -10
+Xm2 d2 g 0 pt
+.control
+dc Vg 1 -10 -0.01
+wrdata idvg.dat i(Vd) i(Vd2)
+quit
+.endc
+.end
